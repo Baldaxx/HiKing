@@ -1,5 +1,43 @@
 body {
-    background-image: url(Img/4.jpg);
     background-size: cover;
     position: sticky;
+}
+
+nav {
+    opacity: 90%;
+}
+
+.droite {
+    margin-left: 410px;
+}
+
+#myVideo {
+    width: 100%;
+
+}
+
+.SVideo {
+    font-size: 10px;
+    font-style: italic;
+}
+
+h1 {
+    font-size: 20px;
+    margin-left: 30px;
+    color: #2061D5;
+}
+
+#p1 {
+    margin-left: 10px;
+    color: rgb(116, 116, 116);
+    font-size: 12px;
+}
+
+#image1 {
+ width: 300px;
+}
+
+footer {
+    font-size: 9px;
+    text-align: center;
 }

@@ -7,14 +7,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
-    <title>Hi King !</title>
+    <title>Randonnée autour de Marseille</title>
 </head>
 
 <body>
     <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
         <nav class="navbar navbar-expand-lg bg-body-tertiary" style="width: 100%;">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">Hi King !</a>
+                <a class="navbar-brand" href="#">GR</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -23,14 +23,18 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">Map</a>
+                            <a class="nav-link" href="#">Mon cabanon</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Pics</a>
+                            <a class="nav-link" aria-current="page" href="#">Mes coins</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Les photos</a>
                         </li>
                         <div class="droite">
                             <form class="d-flex" role="search">
-                                <input class="form-control me-2" type="search" placeholder="Trouvez votre rando !" aria-label="Search">
+                                <input class="form-control me-2" type="search" placeholder="Trouvez votre rando !"
+                                    aria-label="Search">
                                 <button class="btn btn-outline-success" type="submit">Search</button>
                             </form>
                         </div>
@@ -38,7 +42,29 @@
             </div>
         </nav>
     </nav>
-    
+    <div><video id="myVideo" autoplay loop muted>
+            <source src="Img/Espigoulier2.mov" type="video/mp4">
+    </div>
+    <div>
+        <p class="SVideo">Col de L'espigoulier novembre 2023 //</p>
+    </div>
+    <div id="article1">
+        <div class="row">
+            <h1>Prenez de la hauteur</h1>
+            <div class="col-lg-8">
+                <p id="p1">
+Lorsque l'on s'aventure sur les sentiers de randonnée autour de Marseille, on découvre bien plus qu'une simple activité physique. Ces escapades deviennent une véritable aventure sensorielle, où chaque pas révèle une nouvelle facette de la nature méditerranéenne. Les Calanques, avec leurs falaises imposantes et leurs eaux cristallines, offrent un terrain de jeu idéal pour les amateurs de randonnée en quête de défis stimulants et de panoramas à couper le souffle.<br> L'air marin frais et l'exercice en plein air revitalisent le corps, tandis que l'esprit se libère des traces quotidiennes au rythme apaisant des vagues méditerranéennes. La randonnée devient ainsi une expérience holistique, nourrissante à la fois le corps et l'âme. <br>
+Les sentiers variés conduisent les explorateurs à travers une mosaïque de paysages, des forêts denses aux criques isolées où seuls les bruits de la nature rompent le silence. Ces moments d'isolement offrent aux randonneurs l'occasion de se connecter profondément avec leur environnement, créant des souvenirs durables et des liens émotionnels avec la beauté sauvage de la région. 
+Au-delà de l'aspect physique, les randonnées autour de Marseille deviennent ainsi une véritable célébration de la nature préservée, une aventure qui éduque, inspire et nourrit l'âme aventurière. <br> Que ce soit pour l'exploration des sommets offrant des vues panoramiques à couper le souffle ou pour la découverte de criques secrètes baignées de lumière dorée, chaque sentier raconte une histoire unique, gravée dans les souvenirs des randonneurs.</p>
+            </div>
+            <div class="col-lg-4"><img id="image1" src="Img/Garlaban.jpeg"
+                    alt="Photo du col de l'espigoulier dans le massif de la Sainte-Baumes"></div>
+
+        </div>
+    </div>
+    <footer>Copyright © 2023 – Tous droits réservés – Mentions légales – Politique de cookies UE – Nous contacter
+    </footer>
+
     <script src="./script.js"></script>
 </body>
 
