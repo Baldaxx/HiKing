@@ -1,19 +1,30 @@
 body {
     background-size: cover;
     position: sticky;
+    margin: 0;
 }
 
 nav {
     opacity: 90%;
 }
 
-.droite {
-    margin-left: 410px;
+.navbar-brand {
+    font-family: pacifico;
+    font-size: 35px;
+    color: rgb(34, 34, 34);
+}
+
+.nav-link {
+    margin-left: 200px;
+}
+
+.recherche {
+    background-color: rgb(228, 228, 228);
+    padding: 15px;
 }
 
 #myVideo {
     width: 100%;
-
 }
 
 .SVideo {
@@ -22,9 +33,11 @@ nav {
 }
 
 h1 {
-    font-size: 20px;
-    margin-left: 30px;
-    color: #2061D5;
+    font-family: pacifico;
+    font-size: 30px;
+    margin-left: 50px;
+    color: rgb(4, 63, 224);
+    ;
 }
 
 #p1 {
@@ -34,10 +47,84 @@ h1 {
 }
 
 #image1 {
- width: 300px;
+    width: 300px;
+}
+
+.image2 {
+    width: 100%;
+}
+
+.copy {
+    font-size: 9px;
+    text-align: center;
+    color: white;
+    width: 100%;
+}
+
+.card-container {
+    position: relative;
+
+}
+.card-container:hover .card {
+    transform: rotateY(180deg);
+}
+
+.card {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    transition: all 0.8s ease;
+    transform-style: preserve-3d;
+}
+.card-front {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgb(255, 255, 255);
+    backface-visibility: hidden;
+}
+.card-back {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgb(255, 255, 255);
+    backface-visibility: hidden;
+    transform: rotateY(-180deg);
+}
+
+.titre {
+    font-family: pacifico;
+    font-size: 30px;
+    margin-left: 50px;
+    color: rgb(4, 63, 224);
+}
+
+.paragraphe {
+    text-align: center;
+}
+
+.rs,
+.qs,
+.fs {
+    color: white;
+    padding-top: 20px;
+    list-style: none;
+    font-size: 12px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.qs {
+    border-left: 1px solid #595959;
+}
+
+.fs {
+    border-left: 1px solid #595959;
 }
 
 footer {
-    font-size: 9px;
-    text-align: center;
+    background-color: rgb(34, 34, 34);
 }
