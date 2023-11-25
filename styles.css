@@ -125,6 +125,11 @@ a {
     border-left: 1px solid #595959;
 }
 
+#compte {
+    background-color:  rgb(228, 228, 228);
+    border-left: 5px solid #ffffff;
+}
+
 footer {
     background-color: rgb(34, 34, 34);
 }
