@@ -1,8 +1,9 @@
 .navbar-brand {
     font-family: pacifico;
-    font-size: 35px;
-    color: rgb(34, 34, 34);
+    font-size: 45px;
+    color: rgb(85, 85, 85);
 }
+
 .SVideo {
     font-style: italic;
 }
@@ -10,12 +11,47 @@ video {
     width: 100%;
     height: auto;
 }
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 35px;
+    width: 90%;
+}
+
+.strong {
+    font-size: 60px;
+}
+
 #image1 {
     width: 100%;
 }
 #p1{
     text-align: justify;
+    font-size: 14px;
 }
+
+h1 {
+    font-family: pacifico;
+    color: #4374BF; 
+    margin-left: 10%;
+}
+
+.titre {
+    font-family: pacifico;
+    color: #4374BF; 
+    font-size: 25px;
+}
+
+.paragraphe {
+    color: rgb(63, 63, 63);
+    font-size: 14px;
+    margin: 10%;
+}
+
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-card {
     background-color: transparent;
@@ -57,7 +93,7 @@ video {
   
   /* Style the back side */
   .flip-card-back {
-    background-color: dodgerblue;
+    background-color: rgb(255, 255, 255);
     color: white;
     transform: rotateY(180deg);
     overflow-y: scroll;
@@ -66,7 +102,28 @@ video {
       width: 100%;
       height: 100%;
   }
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+ .qs, .fs, .rs {
+    margin-top: 5%;
+}
+
+.copy {
+    background-color: rgb(34, 34, 34);
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    margin: 0;
+}
+
   footer {
     background-color: rgb(34, 34, 34);
     margin: 0;
 }
+
+
