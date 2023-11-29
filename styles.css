@@ -12,6 +12,10 @@ video {
     height: auto;
 }
 
+.container-icones, .text-icones {
+    text-align: center;
+}
+
 .text-overlay {
     position: absolute;
     top: 50%;
@@ -42,7 +46,7 @@ h1 {
 
 .titre {
     font-family: pacifico;
-    color: #4374BF; 
+    color: #576d3c;
     font-size: 25px;
 }
 
@@ -57,7 +61,7 @@ h1 {
     background-color: transparent;
     width: 450px;
     height: 338px;
-    border: 1px solid #f1f1f1;
+
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
   }
   
@@ -69,6 +73,7 @@ h1 {
     text-align: center;
     transition: transform 0.8s;
     transform-style: preserve-3d;
+    
   }
   
   /* Do an horizontal flip when you move the mouse over the flip box container */
@@ -87,20 +92,22 @@ h1 {
   
   /* Style the front side (fallback if image is missing) */
   .flip-card-front {
-    background-color: #bbb;
-    color: black;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    
   }
   
   /* Style the back side */
   .flip-card-back {
-    background-color: rgb(255, 255, 255);
+    background-color: white;
     color: white;
     transform: rotateY(180deg);
-    overflow-y: scroll;
+
   }
   .flip-card-front img{
       width: 100%;
       height: 100%;
+      border-radius: 50%;
   }
 
 a {
@@ -120,6 +127,69 @@ a {
     text-align: center;
     margin: 0;
 }
+
+.containernews {
+    background-color: #576d3c;
+    padding: 5%;
+}
+
+h2, .letter {
+    color: white;
+}
+
+.mep {
+    margin-left: 10%;
+    margin-bottom: 5%;
+    padding-top: 10px;
+}
+
+.mep img:hover {
+    filter: drop-shadow(0 2mm 0.8mm rgb(53, 53, 53));
+}
+
+.form-label {
+    color: rgb(0, 0, 0);
+    padding: 13px;
+}
+
+#backgroundmoncompte {
+    background-color: #f1f1f1;
+}
+
+#compte {
+    padding-top: 10%;
+    margin-left: 25px;
+    padding-bottom: 5%;
+}
+#compte1 {
+    padding-top: 10%;
+    margin-left: 180px;
+    background-color:white
+    border-radius: 5%;
+    border: 0.1px solid #000;
+}
+
+.recherche {
+    margin-top : 10%;
+    margin-bottom: 5%;
+}
+
+#h1commu {
+    font-size: 20px;
+    width: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top : 10%;
+    color: #576d3c;
+}
+
+#direction {
+    margin-bottom: 10%;
+margin-left: 45%;
+background-color: #576d3c;
+border-color: #576d3c;
+}
+
+
 
   footer {
     background-color: rgb(34, 34, 34);
